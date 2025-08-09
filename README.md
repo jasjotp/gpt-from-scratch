@@ -81,6 +81,8 @@ python bigram.py
 ```
 This will train the GPT-like model on the provided dataset using the hyperparameters set in bigram.py and generate the next predicted text in output.txt.
 
+💡 Tip: If you are using a GPU, you can increase or tune the hyperparameters (e.g., n_embed, n_layer, block_size, batch_size) to achieve a lower loss and much more coherent text generation results.
+
 ---
 
 ## **References**
