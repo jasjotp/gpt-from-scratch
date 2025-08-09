@@ -8,6 +8,16 @@ The training data is a character-level corpus built from Jensen Huang interviews
 
 ---
 
+## Decoder Architecture
+
+This model is based on the Transformer decoder, but does not include  the **cross-attention** block since it’s not needed for a pure decoder-only language model like GPT.  
+
+In the original Transformer from *Attention Is All You Need*, cross-attention lets the decoder look at the encoder outputs, which is useful for tasks like machine translation.  
+
+For GPT-style models, there’s no encoder, so we keep it simple with masked multi-head attention, feed-forward layers, and positional encodings.
+
+![Decoder Architecture](decoder_architecture.png)
+
 ## **Project Structure**
 
 ### **1. Data Processing**
