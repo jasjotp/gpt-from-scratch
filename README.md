@@ -1,4 +1,4 @@
-# GPT From Scratch on Jensen Huang Transcripts
+# Transformer From Scratch Based on “Attention Is All You Need”
 
 This project is a small GPT-like decoder-only transformer built from scratch for learning purposes. It follows the ideas from Andrej Karpathy’s video **["Let’s build GPT: from scratch, in code, spelled out"](https://www.youtube.com/watch?v=kCc8FmEb1nY&t=3886s)**.
 
